@@ -25,7 +25,7 @@ driver.navigate().refresh();
 Thread.sleep(3000);
 driver.navigate().to("https://www.facebook.com/");
 System.out.println("2345678");		
-		
+Thread.sleep(10000);		
 	}
 
 }
