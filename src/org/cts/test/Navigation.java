@@ -16,8 +16,7 @@ public class Navigation {
 		WebElement p = driver.findElement(By.id("pass"));
 		p.sendKeys("1234");
 	WebElement b = driver.findElement(By.xpath("//input[@value='Log In']"));
-b.click();
-		
+b.click();		
 driver.navigate().back();
 Thread.sleep(1000);
 driver.navigate().forward();
@@ -25,8 +24,8 @@ Thread.sleep(2000);
 driver.navigate().refresh();
 Thread.sleep(3000);
 driver.navigate().to("https://www.facebook.com/");
-		
-		
+System.out.println("2345678");		
+Thread.sleep(10000);		
 	}
 
 }
